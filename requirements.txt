@@ -1,0 +1,30 @@
+# ============================================================
+# Agentic AI Risk Scoring & Model Governance
+# Core Python Dependencies
+# 2026-08-31
+# ============================================================
+
+# Data processing
+pandas
+numpy
+
+# Machine learning / model evaluation
+scikit-learn
+scipy
+joblib
+statsmodels
+
+# LLM / Agentic AI
+openai
+langchain
+langchain-openai
+langgraph
+
+# Observability
+langsmith
+
+# Embeddings / Governance RAG
+sentence-transformers
+
+# Environment utilities
+python-dotenv
