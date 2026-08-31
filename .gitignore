@@ -216,3 +216,35 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Jingru Chen - 2026-08-31
+# ============================================================
+# Project-specific exclusions
+# ============================================================
+
+# Secrets and environment variables
+.env
+.env.*
+*.key
+*.pem
+.databrickscfg
+
+# Data files - do not publish banking/model-development data
+*.csv
+*.parquet
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# Logs and runtime outputs
+*.log
+*.txt.log
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local temporary files
+*.tmp
+.DS_Store
+Thumbs.db
