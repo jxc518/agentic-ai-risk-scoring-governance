@@ -3,7 +3,7 @@
 
 
 
-Engineering Validation
+## Engineering Validation
 
 The final Databricks Engineering POC successfully completed an end-to-end clean engineering run.
 
@@ -24,7 +24,7 @@ Failure-path testing
 
 Final Status: Clean Engineering Full Run — PASS
 
-Observability
+## Observability
 
 LangSmith is used for end-to-end workflow observability, including:
 
@@ -34,17 +34,18 @@ Agent latency
 Error tracing
 Token usage
 LLM cost tracking
-Documentation
+
+## Documentation
 
 Architecture diagrams, workflow diagrams, runtime observability evidence, and the project presentation are available under the docs/ directory.
 
-Security
+## Security
 
 API keys and credentials are not stored in source code.
 
 The Databricks implementation uses Databricks Secrets for protected credentials. Sensitive datasets, model artifacts, secret values, and local environment files are excluded from this public repository.
 
-Disclaimer
+## Disclaimer
 
 This repository is a personal engineering proof of concept for demonstration and educational purposes.
 
