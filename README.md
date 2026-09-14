@@ -11,6 +11,10 @@ The original prototype was developed in Google Colab and subsequently migrated a
 
 The project is designed as a proof of concept (POC) demonstrating how Agentic AI can orchestrate machine learning, governance, deterministic analytics, human review, and executive reporting within a unified workflow.
 
+### 📊 Project Presentations
+
+- [Multi-Agent Risk Scoring – Databricks](https://github.com/jxc518/agentic-ai-risk-scoring-governance/blob/main/docs/Risk_Scoring_Goverance_AI_POC_Jingru_Chen_20260831.pdf)
+
 ## Architecture
 
 The Databricks implementation follows this high-level architecture:
